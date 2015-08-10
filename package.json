@@ -1,0 +1,11 @@
+{
+  "name": "nodeport",
+  "version": "1.0.0",
+  "description": "This is my Awesome Portfolio",
+  "main": "ap.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Lynch",
+  "license": "ISC"
+}
