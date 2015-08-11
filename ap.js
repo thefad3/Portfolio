@@ -8,6 +8,7 @@ app.use('/client', express.static('client'));
 
 
 app.get('/', function (req, res) {
+
     res.render('home');
 
 });
