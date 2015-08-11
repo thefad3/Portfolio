@@ -14,6 +14,6 @@ app.get('/', function (req, res) {
 });
 
 
-app.listen(process.env.PORT || 9000, process.env.IP || "0.0.0.0", function(){
+app.listen(process.env.IP || "0.0.0.0", function(){
     console.log("Its listening over 9000");
 });
