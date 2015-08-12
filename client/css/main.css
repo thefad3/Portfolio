@@ -1,25 +1,39 @@
 @import url(http://fonts.googleapis.com/css?family=Muli:400,300);
+
+
 body{
     color: #000;
     background: #fff;
 }
+
 i{
     color: #000;
-}
-.blockOne{
-    background-position: center;
-    height: 350px;
-    padding-left: 0px;
-    padding-top: 0px;
 }
 .name{
     font-family: 'Muli', sans-serif;
     font-size: 5em;
     color: #000;
 }
+
+/*
+    Each Block section has its own rules applied to it for the background.
+*/
+
+/* Block One CSS Rules */
+.blockOne{
+    background-position: center;
+    height: 350px;
+    padding-left: 0px;
+    padding-top: 0px;
+}
+
 .blockOne i:hover{
     opacity: .5;
 }
+/* Block One CSS Rules end */
+
+
+/* Block Two CSS Rules */
 .blockTwo{
     background: url("/img/mps.gif");
     height: 350px;
@@ -32,6 +46,12 @@ i{
 .blockTwo:hover{
     opacity: .5;
 }
+/* Block Two CSS Rules End */
+
+
+
+/* Block Three CSS Rules */
+
 .blockThree{
     padding-left: 0px;
     padding-right: 0px;
@@ -40,6 +60,12 @@ i{
     padding-left: 0px;
     padding-right: 0px;
 }
+
+/* Block Three CSS Rules End */
+
+
+/* Block Four CSS Rules */
+
 .blockFour{
     background: url("/img/1.jpg");
     height: 350px;
@@ -57,6 +83,9 @@ i{
 .blockFour:hover{
     opacity: .5;
 }
+/* Block Four CSS Rules End */
+
+/* Block Five CSS Rules */
 .blockFive{
     background: url("/img/3.jpg");
     height: 350px;
@@ -69,6 +98,9 @@ i{
 .blockFive:hover{
     opacity: .5;
 }
+/* Block Five CSS Rules End */
+
+/* Block Six CSS Rules */
 .blockSix{
     background: url("/img/2.jpg");
     height: 350px;
@@ -81,3 +113,4 @@ i{
 .blockSix:hover{
     opacity: .5;
 }
+/* Block Six CSS Rules End */
