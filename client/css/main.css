@@ -1,28 +1,83 @@
+@import url(http://fonts.googleapis.com/css?family=Muli:400,300);
 body{
-    color: #fff;
+    color: #000;
+    background: #fff;
 }
-#bg {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
+i{
+    color: #000;
 }
-
-#bg canvas {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+.blockOne{
+    background-position: center;
+    height: 350px;
+    padding-left: 0px;
+    padding-top: 0px;
 }
-
-
-.topBanner img{
-    width: 50%;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
-    
+.name{
+    font-family: 'Muli', sans-serif;
+    font-size: 5em;
+    color: #000;
+}
+.blockOne i:hover{
+    opacity: .5;
+}
+.blockTwo{
+    background: url("/img/mps.gif");
+    height: 350px;
+    background-position: top center;
+    border: 7px solid #1a1a1a;
+    -webkit-box-shadow: 1px -1px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px -1px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px -1px 3px 0px rgba(0,0,0,0.75);
+}
+.blockTwo:hover{
+    opacity: .5;
+}
+.blockThree{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.blockThree iframe{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.blockFour{
+    background: url("/img/1.jpg");
+    height: 350px;
+    background-position: top left;
+    border: 7px solid #1a1a1a;
+    -webkit-box-shadow: 1px -1px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px -1px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px -1px 3px 0px rgba(0,0,0,0.75);
+}
+.blockFour > h4{
+    padding-top: 40%;
+    font-size: 4.0em;
+    font-color: #fff;
+}
+.blockFour:hover{
+    opacity: .5;
+}
+.blockFive{
+    background: url("/img/3.jpg");
+    height: 350px;
+    background-position: top left;
+    border: 7px solid #1a1a1a;
+    -webkit-box-shadow: 1px -1px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px -1px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px -1px 3px 0px rgba(0,0,0,0.75);
+}
+.blockFive:hover{
+    opacity: .5;
+}
+.blockSix{
+    background: url("/img/2.jpg");
+    height: 350px;
+    background-position: top left;
+    border: 7px solid #1a1a1a;
+    -webkit-box-shadow: 1px -1px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px -1px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px -1px 3px 0px rgba(0,0,0,0.75);
+}
+.blockSix:hover{
+    opacity: .5;
 }
