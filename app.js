@@ -1,6 +1,10 @@
 var express = require('express'),
     exphbs  = require('express-handlebars'),
-    app = express();
+    app = express(),
+    mongoose = require('mongoose'),
+
+mongoose.connect('mongodb://localhost/nodeport');
+
 
 app.use(express.static('client'));
 

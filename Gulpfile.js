@@ -15,6 +15,13 @@ gulp.task('start', function () {
     })
 });
 
+gulp.task('mongod', function() {
+    // spawn in a child process mongodb
+    child_process.exec('mongod', function(err,stdout,stderr){
+        console.log(stdout);
+    });
+});
+
 
 gulp.task('sass', function () {
     gulp.src('./sass/**/*.scss')
